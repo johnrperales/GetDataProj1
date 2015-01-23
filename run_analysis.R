@@ -67,4 +67,4 @@ moltenData = melt(data, id = id_labels, measure.vars = data_labels)
 
 # Apply mean function to dataset using dcast function from reshape2 package
 tidy_data = dcast(moltenData, subject + Activity_Label ~ variable, mean)
-write.table(tidy_data, file = "./tidy_data.txt")
+write.table(tidy_data, file = "./tidy_data.txt", row.name=FALSE)
