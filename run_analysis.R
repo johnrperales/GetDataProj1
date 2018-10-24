@@ -7,7 +7,7 @@
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-# Need to install and load packages data.table and reshape2. Using reshape2 over default reshape
+# N to install and load packages data.table and reshape2. Using reshape2 over default reshape
 # install.packages("data.table")
 # install.packages("reshape2")
 
